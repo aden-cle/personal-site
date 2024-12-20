@@ -17,7 +17,6 @@ main ul {
     list-style-type: disc;
     padding-left: 2rem;
     font-weight: normal;
-    font-size: 1.2rem;
 }
 
 footer .icons {
@@ -37,3 +36,29 @@ footer .icons img {
 footer .icons img:hover {
     transform: scale(1.2);
 }
+
+.photography-content {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 10px; 
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+  }
+  
+  .photography-item {
+    flex: 0 1 auto; 
+  }
+  
+  .photography-item img {
+    max-width: 250px; 
+    height: auto;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 667px) {
+    .photography-item img {
+      max-width: 100%; 
+    }
+  }
+  
