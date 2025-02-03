@@ -46,23 +46,31 @@ footer .icons img:hover {
     list-style: none;
     padding: 0; 
     margin: 0;
-  }
+    will-change: transform;
+}
   
-  .photography-item {
-    flex: 0 1 auto; 
-  }
+.photography-item {
+    flex: 0 1 auto;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
   
-  .photography-item img {
+.photography-item img {
     max-width: 250px; 
     height: auto;
     object-fit: cover;
-  }
+    transform: translateZ(0);
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
   
-  @media (max-width: 667px) {
+@media (max-width: 667px) {
     .photography-item img {
       max-width: 100%; 
     }
-  }
+}
   
 .nav-tabs {
     margin: 1rem 0 2rem 0;
