@@ -110,4 +110,11 @@ footer .links a:hover {
 .nav-tabs a:hover {
     border-bottom: 2px solid #666;
 }
+
+.medium-gray {
+    color: #666;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
   
