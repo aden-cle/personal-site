@@ -1,3 +1,0 @@
-# Genius and Courage
-
-As the Thielism goes, “Courage is in shorter supply than genius.” This is a true yet low resolution image of reality. Anyone who has read Hamlet or interacted with enough bashful nerds knows how excessive deliberation is the primary failure mode for this archetype. The full truth: not only is courage is in shorter supply than genius, but courage is in shorter supply amongst geniuses than amongst the general populace. The cowardly genius should then see his genius as not something tangential to his courage, but as the primary roadblock to exercising it fully. To ascend, he must find and root out the unhelpful elements of his genius while being careful to not strip away too many of its associated advantages. 
