@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'GrandMalon';
+    src: url('./fonts/GrandMalon-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 2rem;
@@ -194,6 +201,15 @@ footer .links a:hover {
 
 .essay-content {
     line-height: 1.7;
+}
+
+.essay-content p:first-of-type::first-letter {
+    font-family: 'GrandMalon', serif;
+    font-size: 5rem;
+    float: left;
+    line-height: 0.75;
+    margin-right: 0.5rem;
+    margin-top: 1.0rem;
 }
 
 .essay-content p {
