@@ -135,4 +135,68 @@ footer .links a:hover {
     height: auto;
     aspect-ratio: 16 / 9;
 }
+
+/* Writing list styles */
+.writing-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+}
+
+.writing-item {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.writing-item a {
+    color: #000;
+    text-decoration: none;
+}
+
+.writing-item a:hover {
+    text-decoration: underline;
+}
+
+.writing-date {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Essay page styles */
+.back-arrow {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+}
+
+.back-arrow:hover {
+    opacity: 0.6;
+}
+
+.essay {
+    max-width: 650px;
+}
+
+.essay-title {
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.essay-meta {
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.essay-content {
+    line-height: 1.7;
+}
+
+.essay-content p {
+    margin-bottom: 1.25rem;
+}
   
