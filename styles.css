@@ -196,7 +196,15 @@ footer .links a:hover {
 .essay-meta {
     color: #666;
     margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.essay-header-image {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
     margin-bottom: 2rem;
+    border-radius: 4px;
 }
 
 .essay-content {
